@@ -1,27 +1,28 @@
-# MeanAprendizadoAngular
+# Mean - Aprendizado Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.1.
 
-## Development server
+## Servidor local para desenvolvimento
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Digite o comando `ng serve -o` para executar no servidor local. Com a flag "-o" não é necessário digitar `http://localhost:4200/`. O servidor local irá abrir uma aba automaticamente no navegador e servir a 
+aplicação. As alterações serão compiladas e renderizadas automaticamente.
 
-## Code scaffolding
+## Geração de Componentes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute o comando `ng g c component-name` para criar um novo componente. Você também pode usar `ng g d para directives|p para pipe|s para service|c para class|g para guard|i para interface|e para enum ou m para module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute o comando `ng build` para fazer o build do projeto. O código final do build será gravado no diretório `dist/`.
 
-## Running unit tests
+## Fazendo testes unitários
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute o comando `ng test`  para executar testes unitários via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Fazendo testes end-to-end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute o comando `ng e2e` para executar o teste e2e pela plataforma de sua escolha. Para poder usar este comando, você deverá primeiro adicionar o pacote que habilite os testes e2e.
 
-## Further help
+## Ajuda
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para saber mais sobre o Angular, digite `ng help` ou visite sua documentação no link [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
