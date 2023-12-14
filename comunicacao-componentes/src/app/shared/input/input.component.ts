@@ -10,10 +10,8 @@ export class InputComponent implements OnInit {
   @Input() public contador: number = 0;
 
   constructor(){
-
   }
 
   ngOnInit(): void {
-
   }
 }
