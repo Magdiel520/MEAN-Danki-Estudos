@@ -1,27 +1,40 @@
 # ProjetoPratico1
 
+## Descrição
+
+<p>
+<br>
+1. Nessa ferramenta o usuário poderá adicionar tarefas diárias, podendo marcar que completou
+<br>
+ou até mesmo deletar a tarefa selecionada.
+<br>
+<br>
+2. No campo 'adicionar tarefas', ele terá que digitar um valor específico que será adicionado
+<br>
+na lista de tarefas.</p>
+<br>
+<br>
+3. Assim que ele adicionar a tarefa será enviada em uma lista, onde o usuário poderá
+<br>
+fazer algumas ações, como:
+<br>
+- Checked: Assim que o usuário clicar no input checked sua tarefa
+<br>
+estará pronta e deverá ir para o final da lista.
+<br>
+- Delete: Assim que o usuário clicar no ícone de lixeira sua tarefa
+<br>
+deverá ser deletada.
+<br>
+<br>
+4. Botão deletar todas as tarefas.
+<br>
+- Assim que clicar no botão deverá aparecer uma confirmação para deletar tudo.
+<br>
+<br>
+Plus: Essa lista deverá ser salva no localStorage
+<br>
+Build: Suba seu código no GitHub e GhPages
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
